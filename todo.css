@@ -1,0 +1,78 @@
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	color: gray;
+}
+
+
+body {
+	background-image: url("n2.jpeg");
+	font-family: Raleway;
+}
+li {
+	background: white;
+	height: 40px;
+	line-height: 40px;
+}
+
+li:nth-child(2n){
+	background: #FFEBEB;
+}
+
+span {
+	background: pink;
+	height: 40px;
+	margin-right: 20px;
+	text-align: center;
+	color: white;
+	width: 0;
+	display: inline-block;
+	transition: 0.2s linear;
+	opacity: 0;
+}
+
+li:hover span {
+	width: 40px;
+	opacity: 0.9;	
+}
+
+input {
+	font-size: 18px;
+	background-color: #FFEBEB;
+	color: pink;
+	width: 100%;
+	padding: 13px 13px 13px 20px;
+	box-sizing: border-box;
+	border: none;
+}
+
+input:focus{
+	background: white;
+	border: 3px solid pink;
+	outline: none;
+}
+#container {
+	background: #DCDCDC;
+	width: 360px;
+	margin: 100px auto;
+	box-shadow: 0 0 3px rgba(0,0,0, 0.1);
+	opacity: 0.9;
+}
+
+h1 {
+	background: white;
+	color: pink;
+	margin: 0;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	font-size: 24px;
+	font-weight: normal;
+	font-family: Raleway;
+	border: none;
+
+}
+
+.fas {
+	float: right;
+}
